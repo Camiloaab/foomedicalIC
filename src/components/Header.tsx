@@ -5,7 +5,7 @@ import { useMedplumProfile } from '@medplum/react';
 import React, { Fragment } from 'react';
 import { NavLink } from 'react-router-dom';
 import { ReactComponent as AvatarPlaceholder } from '../img/avatar-placeholder.svg';
-import { ReactComponent as Logo } from '../img/logo.svg';
+import { ReactComponent as Logo } from '../img/penrose-tiling.svg';
 
 const navigation = [
   { name: 'Health Record', href: '/health-record' },

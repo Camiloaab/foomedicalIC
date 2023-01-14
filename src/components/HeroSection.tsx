@@ -17,7 +17,7 @@ import { ChevronDownIcon } from '@heroicons/react/24/solid';
 import { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import Button from './Button';
-import { ReactComponent as Logo } from '../img/logo.svg';
+import { ReactComponent as Logo } from '../img/penrose-tiling.svg';
 import WorkingEnvironmentImage from '../img/landingPage/working-environment.jpg';
 import DoctorImage from '../img/landingPage/doctor.jpg';
 
@@ -92,7 +92,7 @@ export function HeroSection(): JSX.Element {
             <div className="flex justify-start">
               <a href="#">
                 <span className="sr-only">Workflow</span>
-                <Logo className="h-8 w-auto lg:h-10" />
+                <Logo className="h-14 w-auto lg:h-14" />
               </a>
             </div>
             <div className="-my-2 -mr-2 md:hidden">
@@ -345,13 +345,15 @@ export function HeroSection(): JSX.Element {
         <div className="flex w-full flex-col items-center pt-8 pb-8 text-left sm:items-start sm:pb-36 md:py-36">
           <div className="flex flex-col items-center sm:items-start">
             <h1 className="text-center text-3xl font-medium tracking-wider text-gray-900 sm:text-left sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
-              <p>An extraordinary</p>
-              <p className="text-teal-600">doctor&apos;s office</p>
+              <p>Impossible Code</p>
+            </h1>
+            <h1 className="text-center text-3xl font-medium tracking-wider text-gray-900 sm:text-left sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+              <p className="text-teal-600">Healthcare apps</p>
             </h1>
             <p className="mt-6 w-full max-w-xs text-lg font-normal text-neutral-600 sm:max-w-none md:max-w-sm lg:max-w-lg lg:text-xl">
-              This is not actually a medical practice, this is a sample{' '}
+              Healthcare workflow{' '}
               <a href="https://github.com/medplum/foomedical" target="_blank" rel="noreferrer">
-                open source application
+                FHIRE compliant and ready
               </a>{' '}
               for developers to clone, customize and run.
             </p>
